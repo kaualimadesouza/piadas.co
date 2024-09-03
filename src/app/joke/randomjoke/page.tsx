@@ -149,7 +149,7 @@ export default function Home() {
   }
 
   return (
-    <div className="relative lg:h-screen bg-black text-zinc-50 p-2 lg:p-6">
+    <div className="relative lg:h-screen bg-black text-zinc-50 lg:p-6">
       <div className="relative lg:border-[0.2px] border-white h-full border-opacity-40 flex lg:justify-center lg:items-center py-20 lg:py-0">
         <a className="block absolute left-5 top-5" href="/">
           <img
