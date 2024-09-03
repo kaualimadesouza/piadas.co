@@ -48,9 +48,9 @@ export default function Home() {
           />
         </a>
         <div className="space-y-5">
-          <div className="text-center xl:w-[580px] w-[430px] space-y-4 m-auto">
+          <div className="text-center xl:w-[580px] w-[300px] sm:w-[430px] space-y-4 m-auto">
             <h1 className="font-bold md:text-6xl text-4xl">Piadas.co</h1>
-            <p className="font-thin text-sm opacity-70">
+            <p className="font-thin text-[10px] sm:text-sm opacity-70">
               Seja bem-vindo ao Piadas.co! Aqui, você pode gerar piadas hilárias
               com apenas um clique. Escolha seu criador favorito e se divirta.
               Rir é garantido! (talvez)
