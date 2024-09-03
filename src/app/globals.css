@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Esconde a scrollbar para navegadores Firefox */
+
+.scroll-none {
+  scrollbar-width: none;
+}
+
+.scroll-joke {
+  scrollbar-width: thin;
+  scrollbar-color: #292929 #000000;
+}
+
+/* Chrome, Edge, and Safari */
+.scroll-joke::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll-joke::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+.scroll-joke::-webkit-scrollbar-thumb {
+  background-color: #292929;
+  border-radius: 200px;
+  border: 100px inset #b82828;
+}
