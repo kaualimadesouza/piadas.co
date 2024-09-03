@@ -26,7 +26,7 @@ export default function Home() {
   }
 
   async function getJokes() {
-    const c = await axios.get("http://localhost:3000/api/joke");
+    const c = await axios.get("/api/joke");
     const { jokes } = c.data;
     const randomJoke: Joke = jokes[getRandomIndex(jokes)];
 
